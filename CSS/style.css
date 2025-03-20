@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    height: 80vh;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    border: 7px solid rgb(179, 67, 16);
+}
+
+.slider {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.slider .arrow {
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.slider .fa-chevron-left {
+    left: 2%;
+}
+
+.slider .fa-chevron-right {
+    right: 2%;
+}
+
+.btns {
+    position: absolute;
+    left: 42%;
+    margin-top: 30px;
+}
+
+.btns button {
+    height: 50px;
+    width: 100px;
+    font-size: 22px;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.btns .btn1 {
+    background-color: rgb(38, 92, 33);
+    margin-right: 50px;
+}
+
+.btns .btn2 {
+    background-color: brown;
+}
